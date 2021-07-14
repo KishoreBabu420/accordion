@@ -7,7 +7,7 @@ function App() {
   return (
     <main>
       <div className='container'>
-        <h3>Frequently asked questions(FAQ's)</h3>
+        <h3>Frequently asked Interview questions(FAIQ's)</h3>
         <section className='info'>
           {questions.map((question) => {
             return <SingleQuestion key={question.id} {...question} />;
